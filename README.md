@@ -39,6 +39,20 @@ void main(void)
     printf("Length in inches is %f \n", inches);
 }   
 ```
+#include <iostream>
+using namespace std;
+int main()
+{
+  float cm, inches;
+
+  cout << "Please Enter length in cm:";
+  cin>>cm;
+
+  inches = cm / 2.54;
+
+  cout<<"Length in inches is"<< inches <<endl;
+  
+}
 
 ## Exercise 2 - Selection
 
